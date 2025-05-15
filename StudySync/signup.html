@@ -5,44 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>StudySync | Signup</title>
   <link rel="stylesheet" href="css/signup.css">
-  <link rel="stylesheet" href="css/navbar.css">
+  
 
 </head>
 <body>
 
-   <nav class="navbar">
-  <a href="dashboard.html">Dashboard</a>
-  <a href="create.html">Create Session</a>
-  <a href="session.html">Sessions</a>
-  <a href="resources.html">Resources</a>
-  <a href="calendar.html">Calendar</a>
-  <a href="voting.html">Voting</a>
-  <a href="feedback.html">Feedback</a>
-  <a href="login.html" class="logout-link">Logout</a>
-</nav>
+
   <div class="conatiner">
     <h1 class="welcome-heading">Create Your Account</h1>
     <div class="card">
       <h2 class="logo">StudySync 🧠</h2>
 <form id="signup-form">
   <label>Full Name</label>
-  <input type="text" placeholder="Enter your name" required />
+  <input type="text" id="full-name" placeholder="Enter your name" required />
 
   <label>Email</label>
-  <input type="email" placeholder="Enter your email" required/>
+  <input type="email" id="email" placeholder="Enter your email" required/>
 
   <label>Password</label>
-  <input type="password" placeholder="Create a password" required/>
+  <input type="password"  id="password" placeholder="Create a password" required/>
 
   <label> Confirm password</label>
-  <input type="password" placeholder="Confirm your password" required/>
+  <input type="password"  id="confirm-password" placeholder="Confirm your password"  required/>
 
   <button type="submit">Sign Up</button>
 
-  <p class="login-text">Already have an account?<a href="index.html">Login</a></p>
+  <p class="login-text">Already have an account?<a href="login.html">Login</a></p>
 </form>
 
     </div>
   </div>
+
+  <script type="module" src="js/signup.js"></script>
 </body>
 </html>
