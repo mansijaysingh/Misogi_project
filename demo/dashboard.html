@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StudySync | Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <script src="js/dashboard.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1>StudySync Dashboard</h1>
+    <button id="logout-btn">Logout</button>
+  </header>
+
+  <main class="main-content">
+    <section class="welcome">
+      <h2>Welcome, <span id="user-name">User</span>!</h2>
+    </section>
+
+    <section class="actions">
+      <button id="create-session-btn">Create New Session</button>
+    </section>
+
+    <section class="sessions-list">
+      <h3>Your Sessions</h3>
+      <ul id="sessions">
+        <li>No sessions yet.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,74 @@
+/* -------- Base Styles -------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* -------- Header -------- */
+.header {
+  background: #4f46e5;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header button {
+  background-color: #fff;
+  color: #4f46e5;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* -------- Container -------- */
+.dashboard-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* -------- Create Form -------- */
+.create-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.create-form label {
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.create-form input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.create-form button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.create-form button:hover {
+  background-color: #3730a3;
+}

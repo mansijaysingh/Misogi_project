@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  …
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="create.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Create New Session</h1>
+    <button onclick="window.location.href='dashboard.html'">Back</button>
+  </header>
+
+  <main class="dashboard-container">
+    <form id="create-form" class="create-form">
+      <label for="topic">Topic</label>
+      <input id="topic" type="text" placeholder="Enter session topic" required />
+
+      <label for="invites">Invite Participants</label>
+      <input id="invites" type="text" placeholder="a@example.com, b@example.com" />
+
+      <label for="slot">Propose Time Slot</label>
+      <input id="slot" type="datetime-local" required />
+
+      <button type="submit">Create Session</button>
+    </form>
+  </main>
+</body>
+</html>

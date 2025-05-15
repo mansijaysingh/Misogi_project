@@ -1,0 +1,48 @@
+/* Dashboard specific */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header button {
+  background: #fff;
+  color: #4f46e5;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.actions button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sessions-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sessions-list li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
