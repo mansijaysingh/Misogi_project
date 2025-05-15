@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StudySync | Resources</title>
+  <link rel="stylesheet" href="resources.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>Session Resources</h1>
+    <button class="back-btn">← Back to Session</button>
+  </header>
+
+  <main class="container">
+    <section class="upload-section">
+      <h2>Upload New Resource</h2>
+      <form class="upload-form">
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" />
+
+        <label for="link">Or Share a Link:</label>
+        <input type="url" id="link" name="link" placeholder="https://example.com" />
+
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+
+    <section class="resource-list">
+      <h2>Shared Resources</h2>
+      <ul>
+        <li>
+          <span>📄 Algebra Notes.pdf</span>
+          <span class="timestamp">Uploaded on: 15 May 2025, 10:45 AM</span>
+        </li>
+        <li>
+          <span>🔗 https://khanacademy.org</span>
+          <span class="timestamp">Uploaded on: 14 May 2025, 6:20 PM</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
