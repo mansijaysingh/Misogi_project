@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StudySync | Vote on Time Slots</title>
+  <link rel="stylesheet" href="voting.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Vote on Time Slots</h1>
+    <button class="logout-btn">Logout</button>
+  </header>
+
+  <main class="main-content">
+    <section class="session-info">
+      <h2>Session: <span id="session-topic">Math Group Study</span></h2>
+      <p>Host: <span id="host-name">Alice</span></p>
+    </section>
+
+    <section class="vote-section">
+      <h3>Proposed Time Slots</h3>
+      <form id="vote-form">
+        <div class="time-slot">
+          <input type="radio" id="slot1" name="time-slot" value="2025-05-20T18:00" />
+          <label for="slot1">May 20, 2025 - 6:00 PM</label>
+        </div>
+        <div class="time-slot">
+          <input type="radio" id="slot2" name="time-slot" value="2025-05-21T15:00" />
+          <label for="slot2">May 21, 2025 - 3:00 PM</label>
+        </div>
+        <div class="time-slot">
+          <input type="radio" id="slot3" name="time-slot" value="2025-05-22T20:00" />
+          <label for="slot3">May 22, 2025 - 8:00 PM</label>
+        </div>
+        <button type="submit" class="vote-btn">Submit Vote</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
