@@ -47,6 +47,7 @@ createForm.addEventListener("submit", (e) => {
           createdBy: user.uid,
           createdAt: new Date()
         });
+        
 
         alert("Session created successfully!");
         createForm.reset();
