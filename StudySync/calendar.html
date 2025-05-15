@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/calender.css"/>
+  <link rel="stylesheet" href="css/navbar.css">
+
+  <title>StudySync | Calendar</title>
+</head>
+<body>
+ <nav class="navbar">
+  <a href="dashboard.html">Dashboard</a>
+  <a href="create.html">Create Session</a>
+  <a href="session.html">Sessions</a>
+  <a href="resources.html">Resources</a>
+  <a href="calendar.html">Calendar</a>
+  <a href="voting.html">Voting</a>
+   <a href="feedback.html">Feedback</a>
+  <a href="login.html" class="logout-link">Logout</a>
+</nav>
+
+  <header class="calendar-header">
+    <h1>My Study Calendar</h1>
+  <button class="back-btn" onclick="window.location.href='dashboard.html'">← Back to Dashboard</button>
+    
+  </header>
+
+  <main class="calendar-container">
+    <section class="upcoming-sessions">
+      <h2>Upcoming Sessions</h2>
+      <ul class="session-list">
+        <li>
+          <strong>Math Study Group</strong> <br/>
+          📅 May 18, 2025 – 🕒 3:00 PM
+        </li>
+        <li>
+          <strong>Biology Notes Review</strong> <br/>
+          📅 May 20, 2025 – 🕒 5:00 PM
+        </li>
+        <li>
+          <strong>Physics MCQ Prep</strong> <br/>
+          📅 May 22, 2025 – 🕒 2:00 PM
+        </li>
+      </ul>
+    </section>
+
+    <section class="calendar-note">
+      <p>📌 Sync with your Google Calendar to stay updated.</p>
+      <button>Sync Now</button>
+    </section>
+  </main>
+</body>
+</html>

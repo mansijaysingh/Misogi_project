@@ -19,6 +19,8 @@ body {
 
 }
 
+
+
 .feedback-container h2{
 margin-bottom: 20px;
 color: #4f46e5;
@@ -77,5 +79,24 @@ button {
 }
 
 button:hover {
+  background-color: #3730a3;
+}
+
+.back-btn {
+  display: flex;
+  margin: 20px;
+  padding: 10px 16px;
+  background-color: #4f46e5;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-btn:hover {
   background-color: #3730a3;
 }
